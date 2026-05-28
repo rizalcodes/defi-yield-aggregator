@@ -26,8 +26,8 @@ log = logging.getLogger(__name__)
 # ─────────────────────────────────────────────
 # CONFIG
 # ─────────────────────────────────────────────
-TELEGRAM_TOKEN   = os.getenv("TELEGRAM_TOKEN",   "8660442841:AAE1oCT6WkyhVdE9eC46I-YOD-FNBjeomYY")
-TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID", "1024188205")
+TELEGRAM_TOKEN   = os.getenv("TELEGRAM_TOKEN",   "Your_Telegram_Token_Here")
+TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID", "Your_Chat_ID_Here")
 
 # APY spike alert threshold (%)
 APY_SPIKE_THRESHOLD = 2.0   # alert kalau APY naik/turun > 2%
